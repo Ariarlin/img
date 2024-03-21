@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+ol,ul
+{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(61, 56, 59, 0.859);
+}
+header {
+    display: flex;
+    background-color: rgb(118, 103, 174);
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.3em;
+    margin-right: 3em;
+}
+header nav ul li a{
+    color: rgb(226, 222, 227);
+}
+header a i {
+    color: rgb(224, 217, 230);
+    font-size:2em;
+    padding: 0.5rem;
+}
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.img1{
+    width: 90%;
+    height: 90%; 
+    border-radius: 15%;
+    padding: 3em;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.seccion-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+.img3{
+    width: 10EM;
+    padding: 2EM;
+}
+
+footer{
+    display: flex;
+    background-color: blueviolet;
+    padding: 3em;
+    margin: 0;
+}
+.h3{
+    color: rgba(229, 207, 226, 0.903);
+}
+@media (max-width: 768px){
+.seccion-3{
+    width: 30%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3em;
+ }
+ .seccion-2{
+width:100% ;
+ }
+ }
